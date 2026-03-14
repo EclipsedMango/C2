@@ -1,6 +1,6 @@
 
-#include "stdlib.hp"
-#include "test.hp"
+#include "stdlib.h2"
+#include "test.h2"
 
 #define MAX_SIZE 100
 #define PI 3.14159
