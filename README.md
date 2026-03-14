@@ -1,10 +1,10 @@
-## C+ Introduction
+## C2 Introduction
 
 -----
 
-**C+** is my solution to C's and C++'s problems.
+**C2** is my solution to C's and C++'s problems.
 
-The syntax of **C+** is similar to C, but it includes features like: 
+The syntax of **C2** is similar to C, but it includes features like: 
 - Built-in string type 
 - Struct implementations (similar to Rust)  
 - And much more to come!
@@ -43,10 +43,10 @@ This project is a **work in progress!** Currently supported features:
 
 -----
 
-### Creating your first C+ program
-#### Firstly create your C+ file!
+### Creating your first C2 program
+#### Firstly create your C2 file!
 
-Create a file called main.cp in the C+ directory: (If you cloned this repo this will already be there under the name test.cp!)
+Create a file called main.c2 in the C2 directory: (If you cloned this repo this will already be there under the name test.c2!)
 ````
 int add(int a, int b) {
     return a + b;
@@ -60,11 +60,11 @@ int main() {
 ````
 #### Compiling and running
 
-- **Step 1:** Compile the C+ compiler
+- **Step 1:** Compile the C2 compiler
   - ````./compile.sh````
 
 - **Step 2:** Compile your program, link your program and then run your program (remove the first part of the cmd and runtime.o in the last to remove builtin functions)
-  - ````gcc -c src/runtime/runtime.c -o runtime.o && ./compiler examples/test.cp && gcc output.o runtime.o -o program && ./program````
+  - ````gcc -c src/runtime/runtime.c -o runtime.o && ./compiler examples/test.c2 && gcc output.o runtime.o -o program && ./program````
 
 - **Step 3:** Celebrate!
-  - if done correctly everything should work! and now you have a **C+** program!
+  - if done correctly everything should work! and now you have a **C2** program!
